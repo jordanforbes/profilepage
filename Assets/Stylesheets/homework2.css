@@ -1,0 +1,156 @@
+/*
+font-family: 'Unica One', cursive;
+font-family: 'Rock Salt', cursive;
+font-family: 'Bungee Shade', cursive;
+font-family: 'Megrim', cursive;
+*/
+.backbody{
+  background-color:#F2FCFF;
+
+}
+.whitespace{
+  margin:300 0 0 0;
+  /*border:1px dashed black;*/
+}
+/*style for paintings*/
+.work{
+  width:300px;
+  z-index:0;
+}
+.rightwork{
+  width:300px;
+  margin:20 50 20 0;
+}
+.bang{
+  margin:77 0 0 0;
+}
+
+.newfonticons{
+  font-size:30;
+  color:red;
+  text-decoration:none;
+  display:inline-block;
+  position:relative;
+  z-index:900;
+
+}
+.newfonticons:hover{
+  color:black;
+}
+.newfonticons:active{
+  color:#FFD8D8;
+}
+.artframe{
+  height:300px;
+  width:300px;
+  overflow:hidden;
+  margin:60 50 20 70;
+  border-radius:100%;
+  opacity:.5;
+}
+.artframe:hover{
+  overflow:visible;
+  opacity:1;
+  z-index:999;
+}
+.workcenter:hover{
+  width:400px;
+  position:relative;
+  margin:0 0 0 -50;
+  z-index:999;
+  transition:.5s;
+}
+.workright:hover{
+  width:400px;
+  position:relative;
+  margin:0 0 0 -100;
+  z-index:999;
+  transition:.5s;
+}
+.workleft:hover{
+  width:400px;
+  z-index:999;
+  transition:.5s;
+}
+.title{
+  text-align:center;
+  font-family:'Rock Salt',cursive;
+  color:red;
+  margin-top:100;
+  margin-bottom:50;
+  font-size:50;
+}
+.others{
+  margin:100 0 0 0;
+}
+.face{
+  width:400px;
+  margin:50 0 0 25;
+  border:50px dotted #A3BCFF;
+}
+.movies{
+  width:100px;
+  margin:0 30 0 10;
+}
+
+.myname{
+  font-family:'Rock Salt', cursive;
+  font-size:120;
+  text-align:center;
+  color:red;
+}
+.paintings{
+  font-family:'Rock Salt', cursive;
+  font-size:80;
+  text-align:center;
+  color:red;
+}
+.nameplate{
+  margin:100 0 0 ;
+}
+.name{
+margin:-240 -50 0 -50;
+/*border:1px dashed black*/
+}
+
+#Forbes{
+  border:1px dashed black;
+}
+
+.content{
+
+  margin:50 50 0 50;
+  font-family:'Megrim', cursive;
+  font-size:20;
+  text-align:center;
+  color:#AA0000;
+}
+.content p{
+  z-index:1;
+}
+.linkholder{
+  position:relative;
+  margin:0 0 0 0;
+}
+.gear{
+  background-color: #FFE8E8;
+  border-radius:100%;
+  width:200px;
+  height:200px;
+  margin:-230 50 0 50;
+  border:30px dotted #F2FCFF;
+}
+
+.container1{
+  margin:10 10 0 55;
+  text-align:center;
+  width:300;
+  position:relative;
+  z-index:900;
+
+}
+.span1{
+  color:red;
+  font-size:35;
+}
+span2

@@ -1,0 +1,131 @@
+
+@media (max-width: 600px) {
+  div .fadein img {display: none;}
+  div .fadein h1 {display: none;}
+}
+div .fadein img{
+  animation-name:fadein;
+  animation-duration:1s;
+  position:relative;
+}
+div .gear{
+    -webkit-animation: spin 4s infinite linear;
+    z-index:-1;
+}
+
+@-webkit-keyframes spin {
+	0%  {-webkit-transform: rotate(0deg);}
+	100% {-webkit-transform: rotate(360deg);}
+}
+
+
+div .fadein h1{
+  animation-name:fadeup;
+  animation-duration:1s;
+  position:relative;
+}
+div h1 .Jordan{
+  animation-name:faderight;
+  animation-duration:1s;
+  position:relative;
+}
+div h1 .lastname{
+  animation-name:fadeleft;
+  animation-duration:1s;
+  position:relative;
+}
+p .span1{
+  animation-name:faderight;
+  animation-duration:1s;
+  position:relative;
+}
+
+div .content .container1{
+  animation-name:faderight;
+  animation-duration:1s;
+  animation-delay:1s;
+
+  position:relative;
+}
+div .content p{
+
+  animation-name:fadein2;
+  animation-duration:2s;
+  animation-delay;
+  position:relative;
+}
+div .content{
+  animation-name:hide;
+  animation-duration:1s;
+  position:relative;
+}
+
+@keyframes hide{
+  from{
+    opacity:0;
+  }
+  to{
+    opacity:0;
+  }
+}
+
+@keyframes fadein{
+  from {
+
+    top:-50px;
+    opacity:0;
+
+
+  }
+  to {
+
+    top:0px;
+    opacity:1;
+
+  }
+}
+@keyframes fadein2{
+  from {
+
+    top:-100px;
+    opacity:0;
+
+
+  }
+  to {
+
+    top:0px;
+    opacity:1;
+
+  }
+}
+@keyframes fadeup{
+  from{
+    bottom:-50px;
+    opacity:0;
+  }
+  to{
+    bottom:0px;
+    opacity:1;
+  }
+}
+@keyframes faderight{
+  from{
+    right:-100px;
+    opacity:0;
+  }
+  to{
+    right:0px;
+    opacity:1;
+  }
+}
+@keyframes fadeleft{
+  from{
+    left:-100px;
+    opacity:0;
+  }
+  to{
+    left:0px;
+    opacity:1;
+  }
+}
